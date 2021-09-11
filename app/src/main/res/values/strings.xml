@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Eunha</string>
+    <string name="eunha">Ehu na Que rica mami</string>
+    <string name="eunhaName">Jung Eun Bi (정은비)</string>
+    <string name="eunhaFrom">Seúl, Corea del Sur.</string>
+    <string name="eunhaBio">Más conocida como Eunha (은하), es una cantante y actriz surcoreana. Es
+        conocida por ser miembro de la banda coreana femenina GFriend.Debutó como miembro de la banda
+        comienzo de 2015. </string>
+    <string name="eunhaPost">Post</string>
+    <string name="eunhaFollower">Followers</string>
+    <string name="eunhaFollowing">Following</string>
+    <string name="eunhaFollowes">25,000</string>
+    <string name="eunaPots">200</string>
+    <string name="eunhaFollowings">50</string>
+    <string name="todo">TODO</string>
+</resources>
