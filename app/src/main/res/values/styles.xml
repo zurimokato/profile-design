@@ -12,7 +12,7 @@
 
     <style name="textPrincipal">
         <item name="android:textColor">@color/textBlack</item>
-        <item name="android:textSize">18dp</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:textStyle">bold</item>
 
 

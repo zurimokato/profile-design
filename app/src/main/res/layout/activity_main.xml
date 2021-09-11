@@ -31,7 +31,7 @@
         <RelativeLayout
             android:id="@+id/relativeText"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_below="@+id/cardImage"
             android:layout_marginEnd="20dp"
             android:layout_marginStart="20dp"
@@ -60,8 +60,14 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/eunha_from"
                 android:layout_marginTop="40dp"
+                android:accessibilityLiveRegion="polite"
+                android:clickable="false"
+                android:lineSpacingExtra="8sp"
+                android:maxWidth="200dp"
+                android:minHeight="48dp"
                 android:text="@string/eunhaBio"
-                android:textSize="14sp" />
+                android:textSize="15sp"
+                android:typeface="normal" />
 
 
         </RelativeLayout>
@@ -70,15 +76,16 @@
             android:id="@+id/fab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:layout_alignTop="@+id/relativeText"
             android:layout_alignEnd="@+id/relativeText"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/todo"
             android:src="@drawable/add"
-            android:contentDescription="@string/todo" />
+            card_view:backgroundTint="#E91E63" />
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="24dp"
@@ -87,6 +94,7 @@
                 android:id="@+id/postText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:ellipsize="end"
                 android:textSize="14sp"
                 android:text="@string/eunhaPost"/>
 
