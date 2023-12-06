@@ -1,7 +1,5 @@
 package job.project.com.designperfile;
 
-import android.content.Context;
-import androidx.test.platform.app.InstrumentationRegistry;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 
 import org.junit.Test;
@@ -19,10 +17,16 @@ import java.util.List;
  */
 @RunWith(AndroidJUnit4.class)
 public class ExampleInstrumentedTest {
+    /**
+     *
+     */
     @Test
     public void useAppContext() {
         List<Integer>list=new ArrayList<>();
         list.add(1);
+
+        assertTrue("La condición es verdadera", true);
+
         // Context of the app under test.
         assertArrayEquals(list.toArray(new Integer[0]), list.toArray(new Integer[0]));
     }
